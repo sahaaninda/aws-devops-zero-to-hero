@@ -21,6 +21,7 @@ AWS (Amazon Web Services) provides multiple layers of security to protect resour
         Changes made to NACL rules may take some time to propagate to all the resources using the associated subnet.
 
 - SG: AWS by default blocks port 25 as this is used for mailing activity; to prevent spamming.
+- SG: It has "allow-only" rules, no deny rules. If specific traffic is allowed to go through, then it also allows to go out.
 
 ## Project Implemented in the video
 

@@ -2,4 +2,14 @@
 
 AWS Project: VPC with public-private subnet in Production
 
+- Bastion Host: A bastion host / jump server is configured to provide secure access to instances and resources located within a private network
 
+Copying the aws key from local machine to Bastion Host
+
+```
+# ip of the bastion host
+scp -i /Users/anindasaha/Downloads/awskey.pem /Users/anindasaha/Downloads/awskey.pem ubuntu@44.202.182.25:/home/ubuntu
+```
+
+- After copying, login to Bastion Host
+- From Bastion Host ```ssh``` to the target servers in the private subnet

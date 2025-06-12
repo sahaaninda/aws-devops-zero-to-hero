@@ -2,6 +2,9 @@
 
 AWS Project: VPC with public-private subnet in Production
 
+![Screenshot 2025-06-12 at 11 17 29 AM](https://github.com/user-attachments/assets/ea9b4d16-2f24-44e7-9ba3-c7f4714699d4)
+
+
 - Bastion Host: A bastion host / jump server is configured to provide secure access to instances and resources located within a private network
 
 Copying the aws key from local machine to Bastion Host

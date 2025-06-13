@@ -85,6 +85,8 @@ This day focuses on Amazon S3, a scalable object storage service. You'll learn h
 
 This day introduces Infrastructure as Code (IaC) using AWS CloudFormation. You'll learn how to create CloudFormation templates to automate the provisioning of resources, manage stacks, and ensure consistent infrastructure across deployments.
 
+CFT supports Drift Detection
+
 **Project:** You'll work on creating a CloudFormation template that provisions a fully configured application stack, including EC2 instances, networking components, and security groups.
 
 ## Day 12: AWS CodeCommit

@@ -105,6 +105,10 @@ CI/CD Deployment Services of AWS:
 
 You'll dive into AWS CodePipeline, a fully managed continuous delivery service. You'll learn how to build end-to-end CI/CD pipelines by configuring source, build, and deployment stages, automating the entire software release process.
 
+Jenkins implements continuous implementation and invokes continuous delivery
+
+CodePipeline invokes continuous implementation [through CodeBuild] and invokes continuous delivery. 
+
 **Project:** You'll create a CI/CD pipeline using CodePipeline for an application deployment, including source code integration, build, and automatic deployment to a target environment.
 
 ## Day 14: AWS CodeBuild
